@@ -12,13 +12,13 @@ Route::apiResource('products', ProductController::class);
 
 
 // class Mahasiswa{
-//     public $name;
+//     public $name;1
 //     public $age;
 //     public $adress;
-//     public function sapa(){
+//     public fu nction sapa(){
 //         echo "Halo,". $this ->name;
 //     }
-//     public function data(){
+//     public function data(){  
 //         echo "Age :" . $this ->age . "<br>";
 //         echo "Adress : " . $this -> adress . "<br>";
 
