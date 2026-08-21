@@ -1,4 +1,6 @@
 <?php
+
+use App\Http\Controllers\API\KategoriController;
 use App\Http\Controllers\Api\ProductController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
@@ -7,7 +9,7 @@ use Illuminate\Support\Facades\Route;
 //     return $request->user();
 // })->middleware('auth:sanctum');
 Route::apiResource('products', ProductController::class);
-
+Route::apiResource('kategori',KategoriController::class);
 
 
 
